@@ -39,10 +39,10 @@ const Footer = () => {
             &copy; {new Date().getFullYear()} Prathmesh. All rights reserved.
           </p>
           <div className="flex space-x-4 my-4 md:my-0">
-            <a href="#" className="text-gray-400 hover:text-white">
+            <a href="https://linkedin.com/in/prathmesh-korde-b60091212" className="text-gray-400 hover:text-white">
               <FaLinkedin />
             </a>
-            <a href="#" className="text-gray-400 hover:text-white">
+            <a href="https://github.com/workspace87" className="text-gray-400 hover:text-white">
               <FaGithub />
             </a>
           </div>
