@@ -4,17 +4,17 @@ export const Home = () => {
   return (
     <section
       id="home"
-      className="min-h-screen flex items-center justify-center relative"
+      className="min-h-screen flex items-center justify-center relative px-4 pt-24 sm:pt-32 bg-black text-white"
     >
       <RevealOnScroll>
-        <div className="text-center z-10 px-4">
-          <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-blue-500 to-cyan-400 bg-clip-text text-transparent leading-tight">
+        <div className="text-center z-10">
+          <h1 className="text-3xl sm:text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-blue-500 to-cyan-400 bg-clip-text text-transparent leading-tight">
             Hi, I'm Prathmesh
           </h1>
-          <p className="text-gray-400 text-lg mb-8 max-w-lg mx-auto">
+          <p className="text-gray-400 text-base sm:text-lg mb-8 max-w-lg mx-auto">
             I am a passionate Full Stack Developer with a keen interest in building dynamic and responsive web applications. I love to explore new technologies and continuously improve my skills.
           </p>
-          <div className="flex justify-center space-x-4">
+          <div className="flex flex-wrap justify-center gap-4 mt-4">
             <a
               href="#projects"
               className="bg-blue-500 text-white py-3 px-6 rounded font-medium transition relative overflow-hidden hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(59,130,246,0.4)]"
